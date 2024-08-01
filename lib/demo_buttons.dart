@@ -4,7 +4,7 @@ class DemoButtons extends StatefulWidget {
   const DemoButtons({super.key});
 
   @override
-  State<StatefulWidget> createState() {
+  State<DemoButtons> createState() {
     return _DemoButtonsState();
   }
 }
