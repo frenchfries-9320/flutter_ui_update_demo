@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_ui_update_demo/keys/keys.dart';
 
 void main() {
+  final numbers = {1, 2, 3};
+  numbers.add(4);
   runApp(const App());
 }
 
